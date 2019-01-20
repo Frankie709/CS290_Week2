@@ -1,0 +1,31 @@
+
+/* Border for table */
+table, td, th{
+    border-style:solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+/* Italicize First column of table*/
+tbody td:nth-child(1){
+    font-style: italic;
+}
+
+/* Color for outer-content div */
+.outer-content{
+    background-color: pink; 
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+/*Color for inner-content div */
+.inner-content{
+    background-color: blue;
+    width: 75%;
+    margin: 0 auto;     /* Position Div in center*/
+    text-align: center; /* Move text to center of div*/
+    color: white;
+    
+}

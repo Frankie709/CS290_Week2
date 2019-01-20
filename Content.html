@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>HW Assignment: HTML/CSS</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>  
+     <!-- Header -->
+     <h1>HW Assignment: HTML/CSS</h1>
+     
+     <!-- The Table -->
+     <h2>Table</h2>
+     <section>
+        <table>
+            <caption>Distance Between Texas Cities (Miles)</caption>
+            <thead>
+                <tr>  <!-- Row 1/Header -->
+                    <th></th>
+                    <th>Austin</th>
+                    <th>Dallas</th>
+                    <th>El Paso</th>
+                    <th>Houston</th>
+                    <th>San Antonio</th>    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>  <!-- Row 2 -->
+                    <td>Austin</td>
+                    <td>N/A</td>
+                    <td>194.1</td>
+                    <td>583.99</td>
+                    <td>162.68</td>
+                    <td>77.76</td>   
+                </tr>
+                <tr>  <!-- Row 3 -->
+                    <td>Dallas</td>
+                    <td>194.1</td>
+                    <td>N/A</td>
+                    <td>630.38</td>
+                    <td>238.1</td>
+                    <td>271.99</td>   
+                </tr>
+                <tr>  <!-- Row 4 -->
+                    <td>El Paso</td>
+                    <td>583.99</td>
+                    <td>630.38</td>
+                    <td>N/A</td>
+                    <td>734.1</td>
+                    <td>549.24</td>    
+                </tr>
+                <tr>  <!-- Row 5 -->
+                    <td>Houston</td>
+                    <td>162.68</td>
+                    <td>238.1</td>
+                    <td>734.1</td>
+                    <td>N/A</td>
+                    <td>194.7</td>    
+                </tr>
+                <tr>  <!-- Row 6 -->
+                    <td>San Antonio</td>
+                    <td>77.76</td>
+                    <td>271.99</td>
+                    <td>549.24</td>
+                    <td>194.7</td>
+                    <td>N/A</td>   
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="2">Footer 1</td>
+                <td colspan="4">Footer 2</td>
+            </tfoot>
+        </table>
+     </section>
+     
+     <!-- List -->
+     <h2>List of Favorites</h2>
+     <section>
+        <p>Favorite Book Series</p>
+        <ul>
+        <li>The Mortal Instruments, By Cassandra Clare</li>
+        </ul>
+         
+        <p>Favorite Movie</p>
+        <ul>
+        <li>How to Train a Dragon</li>
+        </ul>
+     
+        <p>Favorite Sports Team</p>
+        <ul>
+        <li>Dallas Cowboys</li>
+        </ul>
+     </section>
+     
+     <!-- DIV -->
+     <h2>DIV</h2>
+     <section>
+     <div class="outer-content">
+         <div class="inner-content"> Inner-Content Div
+         </div>
+     </div>
+     </section>
+  
+     <!-- Post Form -->
+     <h2>Post Form</h2>
+     <section>
+     <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+         <fieldset>
+             <legend> Your Details: </legend>
+             <label>Text Here:
+                <input type="text" name="text_input" size="30" maxlenght="100">
+             </label>
+             <br />
+             <label>Number Here:
+                 <input type="number" name="numerical_input" size="30" maxlenght="100">
+             </label>
+             <br />
+             <label>Password Here:
+                <input type="text" name="password_input" size="30" maxlenght="100">
+             </label>
+             <br />
+         </fieldset>
+         
+         <fieldset>
+            <p>Select between:</p>
+             <label>
+                 <input type="radio" name="candy" value="Snickers">Snickers</label>
+             <br />
+             <label>
+                 <input type="radio" name="candy" value="Skittles">Skittles</label>
+             <br />
+             <label>
+                 <input type="radio" name="candy" value="Mentos">Mentos</label>
+         </fieldset>
+         <fieldset>
+             <label>
+                 <input type="submit" value="Submit">
+             </label>
+         </fieldset>
+         
+         
+     </form>
+     </section>
+     
+     
+     <!-- Get Form -->
+     <h2>Get Form</h2>
+     <section>
+         <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+         <fieldset>
+             <legend> Your Details: </legend>
+             <label>Text Here:
+                <input type="text" name="text_input" size="30" maxlenght="100">
+             </label>
+             <br />
+             <label>Number Here:
+                 <input type="number" name="numerical_input" size="30" maxlenght="100">
+             </label>
+             <br />
+             <label>Password Here:
+                <input type="text" name="password_input" size="30" maxlenght="100">
+             </label>
+             <br />
+         </fieldset>
+         
+         <fieldset>
+            <p>Select between:</p>
+             <label>
+                 <input type="radio" name="candy" value="Snickers">Snickers</label>
+             <br />
+             <label>
+                 <input type="radio" name="candy" value="Skittles">Skittles</label>
+             <br />
+             <label>
+                 <input type="radio" name="candy" value="Mentos">Mentos</label>
+         </fieldset>
+         <fieldset>
+             <label>
+                 <input type="submit" value="Submit">
+             </label>
+         </fieldset>
+     </form>
+     </section>
+     
+ </body>
+</html>
